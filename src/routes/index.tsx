@@ -80,26 +80,26 @@ function Index() {
             </span>
           </div>
           <h1 className="text-6xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] max-w-4xl mb-8 animate-in [animation-delay:100ms]">
-            Connecting Supply <br />
-            with <span className="text-primary">Demand.</span>
+            Modern IT Built <br />
+            by <span className="text-primary">Young Founders.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed animate-in [animation-delay:200ms]">
-            We are young entrepreneurs building B&T Solutions — a modern supply-and-demand
-            and IT services company for businesses that need reliable sourcing, websites,
-            apps, and hosting.
+            We are young entrepreneurs building B&T Solutions — a South African IT company
+            delivering websites, apps, hosting, and digital infrastructure. We also help
+            clients connect supply with demand through smart sourcing support.
           </p>
           <div className="flex flex-wrap gap-4 animate-in [animation-delay:300ms]">
             <a
-              href="#services"
+              href="#it-sector"
               className="px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-primary/20 transition-all"
             >
-              Explore Services
+              Explore IT Services
             </a>
             <a
-              href="#it-sector"
+              href="#services"
               className="px-8 py-4 bg-background border border-border font-semibold rounded-lg hover:bg-secondary transition-all"
             >
-              Our IT Portfolio
+              Supply & Demand
             </a>
           </div>
         </div>
@@ -118,52 +118,40 @@ function Index() {
         </div>
       </section>
 
-      {/* Services Bento */}
-      <section id="services" className="py-24 px-6 max-w-7xl mx-auto">
+      {/* IT Services Bento */}
+      <section id="it-sector" className="py-24 px-6 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-xl">
             <h2 className="text-xs font-mono font-medium text-primary uppercase tracking-widest mb-4">
-              Core Capabilities
+              What We Build
             </h2>
-            <h3 className="text-4xl font-extrabold tracking-tight">Dual-Sector Excellence</h3>
+            <h3 className="text-4xl font-extrabold tracking-tight">IT Services First</h3>
           </div>
           <p className="text-muted-foreground max-w-sm text-sm">
-            We bridge the gap between heavy logistical requirements and specialized
-            technological advancement.
+            Websites, apps, hosting, and digital infrastructure for South African businesses.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-          {/* Big Supply Card */}
+          {/* Big Web Development Card */}
           <div className="md:col-span-7 group relative bg-zinc-900 text-white rounded-2xl p-10 overflow-hidden ring-1 ring-white/5">
-            <img
-              src={cargoPort}
-              alt="Modern cargo port at dusk"
-              className="absolute inset-0 w-full h-full object-cover opacity-40 grayscale group-hover:scale-105 transition-transform duration-700"
-              loading="lazy"
-              width={1024}
-              height={768}
-            />
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-transparent" />
             <div className="relative z-10 flex flex-col h-full justify-between min-h-[300px]">
               <div>
                 <span className="px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-[10px] font-mono uppercase tracking-widest">
-                  Sourcing Division
+                  Flagship Service
                 </span>
-                <h4 className="text-3xl font-bold mt-6 tracking-tight">Supply & Demand Services</h4>
+                <h4 className="text-3xl font-bold mt-6 tracking-tight">Web Development</h4>
               </div>
               <p className="text-white/60 text-sm max-w-md">
-                Connecting South African buyers with the right suppliers — from sourcing
-                and procurement to demand planning for companies, government contracts,
-                and institutions.
+                Custom websites and web applications built for performance, mobile, and
+                growth — from landing pages to full business platforms.
               </p>
             </div>
           </div>
 
-          {/* IT Card */}
-          <div
-            id="it-sector"
-            className="md:col-span-5 bg-card border border-border rounded-2xl p-8 flex flex-col justify-between hover:border-primary/50 transition-colors"
-          >
+          {/* Hosting Card */}
+          <div className="md:col-span-5 bg-card border border-border rounded-2xl p-8 flex flex-col justify-between hover:border-primary/50 transition-colors">
             <div>
               <div className="size-12 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
                 <div className="size-5 border-2 border-primary border-t-transparent animate-spin rounded-full" />
@@ -180,7 +168,7 @@ function Index() {
             </div>
           </div>
 
-          {/* Development Card */}
+          {/* App Development Card */}
           <div className="md:col-span-4 bg-secondary border border-border rounded-2xl p-8 hover:bg-card transition-all">
             <h4 className="text-lg font-bold tracking-tight mb-2">App Development</h4>
             <p className="text-muted-foreground text-xs mb-6">
@@ -201,13 +189,46 @@ function Index() {
             <div className="flex-1">
               <h4 className="text-xl font-bold tracking-tight mb-3">IT Strategic Consulting</h4>
               <p className="text-muted-foreground text-sm">
-                Guiding government sectors through digital transformation with audit-ready
-                frameworks.
+                Guiding businesses and government sectors through digital transformation
+                with audit-ready frameworks.
               </p>
             </div>
             <div className="w-full md:w-48 aspect-square bg-secondary rounded-lg grid place-items-center border border-dashed border-border">
               <span className="text-[10px] font-mono text-muted-foreground">ISO 27001</span>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Supply & Demand Section */}
+      <section id="services" className="py-24 px-6 bg-secondary/30 border-y border-border">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 items-center">
+          <div className="flex-1">
+            <img
+              src={cargoPort}
+              alt="Modern cargo port at dusk"
+              className="rounded-2xl grayscale opacity-70 w-full object-cover h-64 md:h-80"
+              loading="lazy"
+              width={1024}
+              height={768}
+            />
+          </div>
+          <div className="flex-1">
+            <h2 className="text-xs font-mono font-medium text-primary uppercase tracking-widest mb-4">
+              Also Available
+            </h2>
+            <h3 className="text-3xl font-extrabold tracking-tight mb-4">Supply & Demand Services</h3>
+            <p className="text-muted-foreground text-sm max-w-md mb-6">
+              Connecting South African buyers with the right suppliers — from sourcing
+              and procurement to demand planning for companies, government contracts,
+              and institutions.
+            </p>
+            <a
+              href="#contact"
+              className="inline-flex px-6 py-3 bg-foreground text-white rounded-lg text-sm font-bold hover:bg-foreground/90 transition-colors"
+            >
+              Discuss Your Project
+            </a>
           </div>
         </div>
       </section>
