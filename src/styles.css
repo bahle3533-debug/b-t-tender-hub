@@ -61,7 +61,13 @@
   --color-sidebar-ring: var(--sidebar-ring);
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-brand-cyan: var(--brand-cyan);
+  --color-brand-violet: var(--brand-violet);
+  --color-brand-amber: var(--brand-amber);
+  --color-brand-pink: var(--brand-pink);
+  --color-brand-lime: var(--brand-lime);
 }
+
 
 :root {
   --radius: 0.625rem;
