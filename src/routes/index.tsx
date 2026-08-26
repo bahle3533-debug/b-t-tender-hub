@@ -5,17 +5,17 @@ import cargoPort from "../assets/cargo-port.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "B&T Solutions | Supply & IT Tenders" },
+      { title: "B&T Solutions | Supply & IT Services" },
       {
         name: "description",
         content:
-          "B&T Solutions secures high-value supply and IT tenders for government and enterprise. From logistical supply chains to full-stack IT ecosystems, we deliver certainty.",
+          "B&T Solutions is a young, founder-led company delivering supply-chain logistics and IT services — from websites and apps to managed hosting and procurement support.",
       },
-      { property: "og:title", content: "B&T Solutions | Supply & IT Tenders" },
+      { property: "og:title", content: "B&T Solutions | Supply & IT Services" },
       {
         property: "og:description",
         content:
-          "B&T Solutions secures high-value supply and IT tenders for government and enterprise.",
+          "B&T Solutions is a young, founder-led company delivering supply-chain logistics and IT services.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
