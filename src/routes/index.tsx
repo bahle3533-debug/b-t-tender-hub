@@ -51,8 +51,8 @@ function Index() {
             </span>
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
-            <a href="#tenders" className="hover:text-foreground transition-colors">
-              Tenders
+            <a href="#services" className="hover:text-foreground transition-colors">
+              Services
             </a>
             <a href="#it-sector" className="hover:text-foreground transition-colors">
               IT Sector
