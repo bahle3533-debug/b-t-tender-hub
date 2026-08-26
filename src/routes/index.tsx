@@ -163,7 +163,7 @@ function Index() {
               </p>
             </div>
             <div className="mt-8 pt-6 border-t border-border flex justify-between items-center">
-              <span className="text-xs font-mono text-muted-foreground">99.9% Uptime SLA</span>
+              <span className="text-xs font-mono text-muted-foreground">99.5% Uptime Target</span>
               <span className="text-primary">→</span>
             </div>
           </div>
