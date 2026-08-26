@@ -215,7 +215,7 @@ function Index() {
       <section id="methodology" className="py-24 px-6 bg-zinc-950 text-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-extrabold tracking-tighter mb-20 text-center">
-            The Tender Lifecycle
+            How We Deliver
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-0 relative">
