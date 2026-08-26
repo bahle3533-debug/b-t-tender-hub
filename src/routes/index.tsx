@@ -84,15 +84,16 @@ function Index() {
             with <span className="text-primary">Digital Infrastructure.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed animate-in [animation-delay:200ms]">
-            B&T Solutions secures high-value tenders for government and enterprise. From
-            logistical supply chains to full-stack IT ecosystems, we deliver certainty.
+            We are young entrepreneurs building B&T Solutions — a modern supply and IT
+            services company for businesses that need reliable logistics, websites, apps,
+            and hosting.
           </p>
           <div className="flex flex-wrap gap-4 animate-in [animation-delay:300ms]">
             <a
-              href="#tenders"
+              href="#services"
               className="px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-primary/20 transition-all"
             >
-              View Active Tenders
+              Explore Services
             </a>
             <a
               href="#it-sector"
