@@ -76,7 +76,7 @@ function Index() {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/5 border border-primary/10 mb-8 animate-in">
             <span className="size-1.5 rounded-full bg-primary animate-pulse" />
             <span className="text-[10px] font-mono font-medium text-primary uppercase tracking-wider">
-              Operational in UK & EMEA
+              Operational in South Africa
             </span>
           </div>
           <h1 className="text-6xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] max-w-4xl mb-8 animate-in [animation-delay:100ms]">
@@ -152,8 +152,9 @@ function Index() {
                 <h4 className="text-3xl font-bold mt-6 tracking-tight">Supply & Demand Services</h4>
               </div>
               <p className="text-white/60 text-sm max-w-md">
-                Connecting buyers with the right suppliers — from sourcing and procurement
-                to demand planning for companies, government contracts, and institutions.
+                Connecting South African buyers with the right suppliers — from sourcing
+                and procurement to demand planning for companies, government contracts,
+                and institutions.
               </p>
             </div>
           </div>
