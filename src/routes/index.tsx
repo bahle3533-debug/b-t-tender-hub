@@ -242,10 +242,10 @@ function Index() {
 
             <div className="relative pt-12 pb-8 px-4 border-l md:border-l-0 border-white/10">
               <div className="absolute top-6 md:top-[31px] -left-[5px] md:left-0 size-2.5 rounded-full bg-white/20" />
-              <span className="text-xs font-mono text-white/40 mb-4 block">03. Delivery</span>
+              <span className="text-xs font-mono text-white/40 mb-4 block">03. Fulfillment</span>
               <h5 className="text-lg font-bold mb-2">Execution Cycle</h5>
               <p className="text-white/40 text-xs">
-                Mobilizing logistics or dev teams for rapid deployment.
+                Matching supply to demand and mobilizing dev teams for rapid deployment.
               </p>
             </div>
 
