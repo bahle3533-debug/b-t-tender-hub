@@ -267,7 +267,7 @@ function Index() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(0,71,255,0.05),transparent)]" />
           <div className="relative z-10">
             <h2 className="text-4xl font-extrabold tracking-tighter mb-6">
-              Ready to secure your next tender?
+              Ready to work with young, driven founders?
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto mb-10">
               Our multidisciplinary team of IT students and logistics experts is ready to
