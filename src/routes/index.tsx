@@ -5,17 +5,17 @@ import cargoPort from "../assets/cargo-port.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "B&T Solutions | Supply & IT Tenders" },
+      { title: "B&T Solutions | Supply & IT Services" },
       {
         name: "description",
         content:
-          "B&T Solutions secures high-value supply and IT tenders for government and enterprise. From logistical supply chains to full-stack IT ecosystems, we deliver certainty.",
+          "B&T Solutions is a young, founder-led company delivering supply-chain logistics and IT services — from websites and apps to managed hosting and procurement support.",
       },
-      { property: "og:title", content: "B&T Solutions | Supply & IT Tenders" },
+      { property: "og:title", content: "B&T Solutions | Supply & IT Services" },
       {
         property: "og:description",
         content:
-          "B&T Solutions secures high-value supply and IT tenders for government and enterprise.",
+          "B&T Solutions is a young, founder-led company delivering supply-chain logistics and IT services.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -51,8 +51,8 @@ function Index() {
             </span>
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
-            <a href="#tenders" className="hover:text-foreground transition-colors">
-              Tenders
+            <a href="#services" className="hover:text-foreground transition-colors">
+              Services
             </a>
             <a href="#it-sector" className="hover:text-foreground transition-colors">
               IT Sector
@@ -84,15 +84,16 @@ function Index() {
             with <span className="text-primary">Digital Infrastructure.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed animate-in [animation-delay:200ms]">
-            B&T Solutions secures high-value tenders for government and enterprise. From
-            logistical supply chains to full-stack IT ecosystems, we deliver certainty.
+            We are young entrepreneurs building B&T Solutions — a modern supply and IT
+            services company for businesses that need reliable logistics, websites, apps,
+            and hosting.
           </p>
           <div className="flex flex-wrap gap-4 animate-in [animation-delay:300ms]">
             <a
-              href="#tenders"
+              href="#services"
               className="px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-primary/20 transition-all"
             >
-              View Active Tenders
+              Explore Services
             </a>
             <a
               href="#it-sector"
@@ -118,7 +119,7 @@ function Index() {
       </section>
 
       {/* Services Bento */}
-      <section id="tenders" className="py-24 px-6 max-w-7xl mx-auto">
+      <section id="services" className="py-24 px-6 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-xl">
             <h2 className="text-xs font-mono font-medium text-primary uppercase tracking-widest mb-4">
@@ -148,11 +149,11 @@ function Index() {
                 <span className="px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-[10px] font-mono uppercase tracking-widest">
                   Logistics Division
                 </span>
-                <h4 className="text-3xl font-bold mt-6 tracking-tight">Supply & Delivery Tenders</h4>
+                <h4 className="text-3xl font-bold mt-6 tracking-tight">Supply & Delivery Services</h4>
               </div>
               <p className="text-white/60 text-sm max-w-md">
-                End-to-end procurement and delivery strategies for large-scale government
-                contracts and international logistics.
+                End-to-end procurement and delivery support for companies, government
+                contracts, and international logistics operations.
               </p>
             </div>
           </div>
@@ -214,7 +215,7 @@ function Index() {
       <section id="methodology" className="py-24 px-6 bg-zinc-950 text-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-extrabold tracking-tighter mb-20 text-center">
-            The Tender Lifecycle
+            How We Deliver
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-0 relative">
@@ -266,7 +267,7 @@ function Index() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(0,71,255,0.05),transparent)]" />
           <div className="relative z-10">
             <h2 className="text-4xl font-extrabold tracking-tighter mb-6">
-              Ready to secure your next tender?
+              Ready to work with young, driven founders?
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto mb-10">
               Our multidisciplinary team of IT students and logistics experts is ready to
