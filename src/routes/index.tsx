@@ -119,7 +119,7 @@ function Index() {
       </section>
 
       {/* Services Bento */}
-      <section id="tenders" className="py-24 px-6 max-w-7xl mx-auto">
+      <section id="services" className="py-24 px-6 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-xl">
             <h2 className="text-xs font-mono font-medium text-primary uppercase tracking-widest mb-4">
@@ -149,11 +149,11 @@ function Index() {
                 <span className="px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-[10px] font-mono uppercase tracking-widest">
                   Logistics Division
                 </span>
-                <h4 className="text-3xl font-bold mt-6 tracking-tight">Supply & Delivery Tenders</h4>
+                <h4 className="text-3xl font-bold mt-6 tracking-tight">Supply & Delivery Services</h4>
               </div>
               <p className="text-white/60 text-sm max-w-md">
-                End-to-end procurement and delivery strategies for large-scale government
-                contracts and international logistics.
+                End-to-end procurement and delivery support for companies, government
+                contracts, and international logistics operations.
               </p>
             </div>
           </div>
