@@ -80,13 +80,13 @@ function Index() {
             </span>
           </div>
           <h1 className="text-6xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] max-w-4xl mb-8 animate-in [animation-delay:100ms]">
-            Bridging Physical Supply <br />
-            with <span className="text-primary">Digital Infrastructure.</span>
+            Connecting Supply <br />
+            with <span className="text-primary">Demand.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed animate-in [animation-delay:200ms]">
-            We are young entrepreneurs building B&T Solutions — a modern supply and IT
-            services company for businesses that need reliable logistics, websites, apps,
-            and hosting.
+            We are young entrepreneurs building B&T Solutions — a modern supply-and-demand
+            and IT services company for businesses that need reliable sourcing, websites,
+            apps, and hosting.
           </p>
           <div className="flex flex-wrap gap-4 animate-in [animation-delay:300ms]">
             <a
@@ -147,13 +147,13 @@ function Index() {
             <div className="relative z-10 flex flex-col h-full justify-between min-h-[300px]">
               <div>
                 <span className="px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-[10px] font-mono uppercase tracking-widest">
-                  Logistics Division
+                  Sourcing Division
                 </span>
-                <h4 className="text-3xl font-bold mt-6 tracking-tight">Supply & Delivery Services</h4>
+                <h4 className="text-3xl font-bold mt-6 tracking-tight">Supply & Demand Services</h4>
               </div>
               <p className="text-white/60 text-sm max-w-md">
-                End-to-end procurement and delivery support for companies, government
-                contracts, and international logistics operations.
+                Connecting buyers with the right suppliers — from sourcing and procurement
+                to demand planning for companies, government contracts, and institutions.
               </p>
             </div>
           </div>
