@@ -234,7 +234,7 @@ function Index() {
         <div className="pointer-events-none absolute top-64 left-1/3 size-[20rem] rounded-full bg-brand-cyan/20 blur-3xl animate-float [animation-delay:4s]" />
 
         <div className="relative max-w-7xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-gradient/10 border border-primary/20 mb-8 animate-in">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 mb-8 animate-in">
             <span className="size-1.5 rounded-full bg-brand-lime animate-pulse" />
             <span className="text-[10px] font-mono font-medium text-primary uppercase tracking-wider">
               Operational in South Africa
