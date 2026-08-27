@@ -171,22 +171,24 @@
 }
 
 :root {
-  --brand-cyan: oklch(0.78 0.15 195);
-  --brand-violet: oklch(0.62 0.24 300);
-  --brand-amber: oklch(0.82 0.17 75);
-  --brand-pink: oklch(0.7 0.2 350);
-  --brand-lime: oklch(0.85 0.19 130);
-  --gradient-brand: linear-gradient(120deg, var(--primary), var(--brand-violet) 45%, var(--brand-cyan));
+  --brand-cyan: oklch(0.72 0.09 220);
+  --brand-violet: oklch(0.55 0.11 275);
+  --brand-amber: oklch(0.78 0.1 80);
+  --brand-pink: oklch(0.68 0.09 350);
+  --brand-lime: oklch(0.72 0.13 150);
+  --gradient-brand: linear-gradient(110deg, var(--foreground), color-mix(in oklab, var(--primary) 80%, var(--foreground)));
   --gradient-warm: linear-gradient(120deg, var(--brand-amber), var(--brand-pink));
-  --shadow-glow: 0 20px 60px -20px color-mix(in oklab, var(--primary) 55%, transparent);
+  --shadow-glow: 0 18px 50px -24px color-mix(in oklab, var(--foreground) 40%, transparent);
+  --shadow-soft: 0 1px 2px color-mix(in oklab, var(--foreground) 6%, transparent),
+    0 12px 32px -22px color-mix(in oklab, var(--foreground) 40%, transparent);
 }
 
 .dark {
-  --brand-cyan: oklch(0.82 0.14 195);
-  --brand-violet: oklch(0.7 0.22 300);
-  --brand-amber: oklch(0.85 0.16 75);
-  --brand-pink: oklch(0.75 0.19 350);
-  --brand-lime: oklch(0.88 0.18 130);
+  --brand-cyan: oklch(0.78 0.08 220);
+  --brand-violet: oklch(0.68 0.1 275);
+  --brand-amber: oklch(0.82 0.09 80);
+  --brand-pink: oklch(0.74 0.09 350);
+  --brand-lime: oklch(0.8 0.12 150);
 }
 
 @utility text-gradient {
@@ -207,27 +209,57 @@
   box-shadow: var(--shadow-glow);
 }
 
+@utility shadow-soft {
+  box-shadow: var(--shadow-soft);
+}
+
 @utility card-glass {
-  background-color: color-mix(in oklab, var(--card) 70%, transparent);
-  backdrop-filter: blur(14px);
+  background-color: color-mix(in oklab, var(--background) 72%, transparent);
+  backdrop-filter: blur(16px) saturate(140%);
 }
 
 @utility animate-float {
-  animation: float 9s ease-in-out infinite;
+  animation: float 14s ease-in-out infinite;
 }
 
 @utility animate-marquee {
-  animation: marquee 26s linear infinite;
+  animation: marquee 44s linear infinite;
 }
 
-@utility animate-shimmer {
-  background-size: 200% 100%;
-  animation: shimmer 6s linear infinite;
+@utility reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+@utility reveal-in {
+  opacity: 1;
+  transform: none;
+}
+
+@utility rule-grow {
+  transform-origin: left;
+  animation: rule-grow 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@utility link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.35s cubic-bezier(0.16, 1, 0.3, 1), color 0.25s ease;
+
+  &:hover {
+    background-size: 100% 1px;
+  }
 }
 
 @keyframes float {
   0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
-  50% { transform: translate3d(0, -28px, 0) scale(1.06); }
+  50% { transform: translate3d(0, -18px, 0) scale(1.04); }
 }
 
 @keyframes marquee {
@@ -235,7 +267,15 @@
   to { transform: translateX(-50%); }
 }
 
-@keyframes shimmer {
-  from { background-position: 0% 50%; }
-  to { background-position: 200% 50%; }
+@keyframes rule-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }
